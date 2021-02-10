@@ -4,6 +4,7 @@ img{
   border-radius: 50%;
 }
 
+/* initial links */
 a:link{
   display:block;
   width: 100%;
@@ -11,11 +12,13 @@ a:link{
   text-decoration: none;
 }
 
+/* size increases when hovered over */
 a:hover{
   font-size: 20px;
   top: 100%;
 }
 
+/* link goes back to what it looked like originally */
 a:visited{
   display:block;
   font-size: 20px;
@@ -25,6 +28,7 @@ a:visited{
   top: 100%;
 }
 
+/* cmost of the content*/
 .headlines{
   display: inline-flex;
   position: absolute;
@@ -33,18 +37,21 @@ a:visited{
   width: 100%;
 }
 
+/* the different section titles */
 .content{
   font-family: Helvetica, Sans-Serif;
   z-index: 50;
   width: 100%;
 }
 
+/* names of the cast members*/
 .names{
   font-family: Helvetica, Sans-Serif;
   font-size: 20px;
   color: white;
 }
 
+/* about paragraph*/
 .abt{
     font-family: Helvetica, Sans-Serif;
     font-size: 20px;
@@ -53,13 +60,16 @@ a:visited{
     color: white;
 }
 
+/* centers title, gives it a font and bigger size, z-index to bring to front*/
 .TITLE{
   color: white;
   font-size: 60px;
   font-family: Helvetica, Sans-Serif;
   position: absolute;
-  top: 35%;
-  left: 38%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
   z-index: 70;
 }
 
@@ -69,6 +79,7 @@ a:visited{
     display: block
 }
 
+/* sets it as full screen and fixed throughout scrolling*/
 .video{
   top: 0%;
   left: 0%;
@@ -78,6 +89,7 @@ a:visited{
   position: fixed;
 }
 
+/* gradient overlay from black to white */
 .overlay::after {
     content: "";
     position: absolute;
