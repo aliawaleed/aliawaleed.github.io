@@ -1,34 +1,33 @@
 <html>
   <head>
-    <title> 30 MFF </title>
+    <title> 30 MFF </title>  <!-- to be written on the tab -->
     <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
     <div class = "mainTitle">
-      <h1 class="TITLE" id ="orangeTitle"> <center> 30-Minute </br> Film Festival </center> </h1>
-      <section class="overlay">
-      </section>
+      <h1 class="TITLE"> <center> 30-Minute </br> Film Festival </center> </h1> <!-- in the center of the screen when website loads -->
+      <section class="overlay"></section> <!-- mainly in CSS, gradient overlay black to white -->
     </div>
 
-    <div>
-      <video class="center video" controls poster="https://wallpaperaccess.com/full/1194086.jpg" style="object-fit:cover">> <!-- Make it 1280 x 720 -->
+    <div> <!-- to place the video as full screen and have a sunrise as the thumbnail as the video is about our morning routine -->
+      <video class="center video" controls poster="https://thechicagofiles.files.wordpress.com/2020/01/sunrise-jan-9-2019.jpg" style="object-fit:cover">> <!-- Make it 1280 x 720 -->
         <source src="https://www.commlab.nyuadim.com/MangS21/Morning_Routine.mp4" type="video/mp4">
       </video>
     </div>
 
-    <div class = "headlines">
+    <div class = "headlines"> <!-- contains the film headline, about and cast section -->
       <div class = "content" id="filmID">
         <a href="#filmID"> <h1> <center> Film </center> </h1> </a>
       </div>
 
     <div class= "content" id="aboutID">
       <a href="#aboutID"> <h1> <center> About </center> </h1> </a>
-      <div id = "aboutSection">
+      <div id = "aboutSection"> <!-- to be able to display and remove when needed in JavaScript -->
         <p class = "abt">
           This movie is made by 3 students that are studying at New York University Abu Dhabi.
           The whole movie was done in a combined total time of 30 minutes, with the filming and editing, all was done remotely.
-          The idea presented as that of a morning routine of all three students where each student films a different part.
+          The idea presented is that of a morning routine of all three students where each student films a different part.
           This starts from waking up and turning the alarm off, some steps in between, all the way to turning on the laptop and joining a zoom class.
         </p>
       </div>
@@ -36,7 +35,7 @@
 
     <div class= "content" id="castID">
       <a href="#castID"> <h1> <center> Cast </center> </h1> </a>
-      <div id= "castSection">
+      <div id= "castSection"> <!-- images and names of us 3 -->
         <center>
         <img src="alia.jpg" alt="image">
         <p class = "names"> Alia Waleed </p>
