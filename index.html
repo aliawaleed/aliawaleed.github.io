@@ -3,37 +3,50 @@
     <title> 30 MFF </title>
     <link rel="stylesheet" href="style.css">
   </head>
-  <body>
 
-    <h1 class="TITLE"> <center> 30-Minute Film Festival </center> </h1>
-    <section class="overlay">
-    </section>
+  <body>
+    <div class = "mainTitle">
+      <h1 class="TITLE" id ="orangeTitle"> <center> 30-Minute </br> Film Festival </center> </h1>
+      <section class="overlay">
+      </section>
+    </div>
 
     <div class = "headlines">
-    <div class= "Film">
-    <h1> <center> Film </center> </h1>
-    <video class="center video" controls> <!-- Make it 1280 x 720 -->
-      <source src="https://www.commlab.nyuadim.com/MangS21/Morning_Routine.mp4" type="video/mp4">
-    </video>
+      <div class = "content" id="filmID">
+        <a href="#filmID"> <h1> <center> Film </center> </h1> </a>
+        <video class="center video" controls poster="https://wallpaperaccess.com/full/1194086.jpg" style="object-fit:cover">> <!-- Make it 1280 x 720 -->
+          <source src="https://www.commlab.nyuadim.com/MangS21/Morning_Routine.mp4" type="video/mp4">
+        </video>
+      </div>
+
+    <div class= "content" id="aboutID">
+      <a href="#aboutID"> <h1> <center> About </center> </h1> </a>
+      <div id = "aboutSection">
+        <p class = "abt">
+          This movie is made by 3 students that are studying at New York University Abu Dhabi.
+          The whole movie was done in a combined total time of 30 minutes, with the filming and editing, all was done remotely.
+          The idea presented as that of a morning routine of all three students where each student films a different part.
+          This starts from waking up and turning the alarm off, some steps in between, all the way to turning on the laptop and joining a zoom class.
+        </p>
+      </div>
+    </div>
+
+    <div class= "content" id="castID">
+      <a href="#castID"> <h1> <center> Cast </center> </h1> </a>
+      <div id= "castSection">
+        <center>
+        <img src="alia.jpg" alt="image">
+        <p class = "names"> Alia Waleed </p>
+        <img src="aayush.jpg" alt="image">
+        <p class = "names"> Aayush Aayron Deo </p>
+        <img src="ali.jpg" alt="image">
+        <p class = "names"> Ewaz Ali Bahrami </p>
+        </center>
+      </div>
+    </div>
   </div>
 
-  <div class= "About">
-    <h1> <center> About </center> </h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tincidunt, lorem eu semper pulvinar, diam mi malesuada orci, ac aliquam arcu lorem eget velit. Nunc mollis, erat at scelerisque tincidunt, Leo purus semper urna, id lacinia metus mi vel nibh. Sed faucibus magna dui, in eleifend nibh viverra in. Ut faucibus odio nisl, pellentesque commodo lorem dapibus pretium. Nullam et blandit massa, eget euismod lacus. Suspendisse placerat fringilla diam, vel suscipit ex posuere eu. Etiam eu neque in enim dignissim iaculis. Nullam ac viverra ex, in consectetur diam. Cras ut finibus ipsum. Aenean semper lacinia turpis non tempus.
-    </p>
-  </div>
-
-    <!-- <a href = "http://www.google.com">Click here</a> -->
-    <div class= "Cast">
-    <h1> <center> Cast </center> </h1>
-    <center>
-    <img src="avatar.jpg" alt="image">
-    <img src="avatar.jpg" alt="image">
-    <img src="avatar.jpg" alt="image">
-    </center>
-  </div>
-</div>
+  <script src="script.js"></script>
 
   </body>
 </html>
