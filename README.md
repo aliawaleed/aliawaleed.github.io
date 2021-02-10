@@ -20,3 +20,4 @@ After completing each section in the HTML file, I would go ahead and make it loo
 
 ## Reflection/Evaluation
 
+For the most part, I feel like my expectations and the goals I set for myself and for the website were met. It did take me a long time to figure out many aspects, however, especially with the overlay and placement of text. I also had a problem with my "Film" navigation button as it always appeared behind the video, but thanks to Aayush's help, I was able to fix my code and actually have the video as a separate div that comes before then "Film" headline and not after. I made a few minor changes along the way, such as having the titles increase in size when hovered over instead of when clicked, as it seemed to be more interactive and user-friendly. 
