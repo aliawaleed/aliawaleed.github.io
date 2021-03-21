@@ -52,6 +52,9 @@ body {
   clear: both;
 }
 
+.text {
+  font-size: 17px;
+}
 /* Footer */
 .footer {
   padding: 20px;
