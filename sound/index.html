@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sound on the Web</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="Tone.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <center><p>Click anywhere on the screen then hover over the sky to hear the birds and the ocean to hear the waves.</p></center>
+    <center><img src="ocean.jpg" alt="image"></center>
+    <audio id="waves">
+      <source src="waves.mp3" type="audio/mpeg">
+      <source src="waves.ogg" type="audio/ogg">
+      <p>Sorry, you do not support audio formats, please come back later.</p>
+    </audio>
+
+    <audio id="birds">
+      <source src="birds.mp3" type="audio/mpeg">
+      <source src="birds.ogg" type="audio/ogg">
+      <p>Sorry, you do not support audio formats, please come back later.</p>
+    </audio>
+
+    <div class="sky" id="sky"></div>
+    <div class="water" id="water"></div>
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
