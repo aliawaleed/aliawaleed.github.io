@@ -11,19 +11,23 @@ img{
 .water {
   transition: 1s linear all;
   position: absolute;
-  width: 70%;
-  height: 59%;
-  top: 37%;
-  left: 15.5%;
-  /* border: 2px solid orange; */
+  width: 69.8%;
+  height: 65%;
+  top: 34%;
+  left: 15%;
+  /* border: 1px solid orange; */
 }
 
 .sky {
   transition: 1s linear all;
   position: absolute;
-  width: 70%;
-  height: 30%;
-  top: 6.5%;
-  left: 15.5%;
-  /* border: 2px solid orange; */
+  width: 69.8%;
+  height: 34%;
+  left: 15%;
+  /* border: 1px solid orange; */
+}
+
+.pics{
+  text-align: center;
+  position: relative;
 }
